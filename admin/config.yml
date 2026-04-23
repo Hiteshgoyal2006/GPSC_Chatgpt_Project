@@ -1,13 +1,13 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+  repo: Hiteshgoyal2006/GPSC_Chatgpt_Project
   branch: main
 
 media_folder: "assets/uploads"
 public_folder: "assets/uploads"
 publish_mode: editorial_workflow
-site_url: "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME"
-display_url: "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME"
+site_url: "https://hiteshgoyal2006.github.io/GPSC_Chatgpt_Project"
+display_url: "https://hiteshgoyal2006.github.io/GPSC_Chatgpt_Project"
 
 collections:
   - name: "site"
