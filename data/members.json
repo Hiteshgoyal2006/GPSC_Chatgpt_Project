@@ -1,0 +1,108 @@
+{
+  "items": [
+  {
+    "id": "ajanta-public-school",
+    "name": "Ajanta Public School",
+    "sector": "Sector-31",
+    "address": "Sector-31, Gurugram",
+    "email": "info@ajantapublicschool.org",
+    "phone": "8130455009",
+    "principal": "Mr. Vaibhav Kapoor",
+    "website": "https://www.ajantapublicschool.org",
+    "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=80",
+    "tags": ["Gurugram"],
+    "active": true
+  },
+  {
+    "id": "amity-sector-43",
+    "name": "Amity International School",
+    "sector": "Sector-43",
+    "address": "Power Grid Township, Sector-43, Gurugram",
+    "email": "principal@aisg43.amity.edu",
+    "phone": "9971728888",
+    "principal": "Dr. Anshu Arora",
+    "website": "https://amity.edu/ais/gurgaon43",
+    "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=80",
+    "tags": ["Gurugram"],
+    "active": true
+  },
+  {
+    "id": "amity-sector-46",
+    "name": "Amity International School",
+    "sector": "Sector-46",
+    "address": "Vikas Marg, Sector-46, Gurugram",
+    "email": "aisg46@amity.edu",
+    "phone": "9810755633",
+    "principal": "Ms. Arti Chopra",
+    "website": "https://www.amity.edu/ais/gurgaon46",
+    "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=900&q=80",
+    "tags": ["Gurugram"],
+    "active": true
+  },
+  {
+    "id": "blue-bells-model-school",
+    "name": "Blue Bells Model School",
+    "sector": "Sector-4",
+    "address": "Urban Estate, Sector-4, Gurugram",
+    "email": "principalbbms@bluebells.org",
+    "phone": "0124 4698888",
+    "principal": "Ms. Alka Singh",
+    "website": "https://bluebells.org/bbms",
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=80",
+    "tags": ["Gurugram"],
+    "active": true
+  },
+  {
+    "id": "dav-sector-14",
+    "name": "D A V Public School",
+    "sector": "Sector-14",
+    "address": "Sector-14, Gurugram",
+    "email": "davsector14gurgaon@yahoo.com",
+    "phone": "0124-4081592",
+    "principal": "Ms. Aparna Erry",
+    "website": "https://www.dav14gurgaon.org",
+    "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80",
+    "tags": ["Gurugram"],
+    "active": true
+  },
+  {
+    "id": "dps-sector-45",
+    "name": "Delhi Public School",
+    "sector": "Sector-45",
+    "address": "Site No. 1, Urban Estate, Sector-45, Gurugram",
+    "email": "dpsgurgaon1@gmail.com",
+    "phone": "0124-4125800",
+    "principal": "Ms. Aditi Misra",
+    "website": "https://www.dpsgurgaon.org",
+    "image": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?auto=format&fit=crop&w=900&q=80",
+    "tags": ["Gurugram"],
+    "active": true
+  },
+  {
+    "id": "gd-goenka",
+    "name": "G D Goenka Public School",
+    "sector": "Sector-48",
+    "address": "Block-A, Vipul World, Sector-48, Gurugram",
+    "email": "principal@gdgoenka-gurgaon.com",
+    "phone": "9818800801",
+    "principal": "Ms. Anuradha Handa",
+    "website": "https://www.gdgoenka-gurgaon.com",
+    "image": "https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&w=900&q=80",
+    "tags": ["Gurugram"],
+    "active": true
+  },
+  {
+    "id": "rotary-public-school",
+    "name": "Rotary Public School",
+    "sector": "Sector-22",
+    "address": "Sector-22, Gurugram",
+    "email": "rotaryschool@rediffmail.com",
+    "phone": "0124-2369520",
+    "principal": "Ms. Sandeepa Rai",
+    "website": "https://www.rotarypublicschool.org",
+    "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=900&q=80",
+    "tags": ["Gurugram"],
+    "active": true
+  }
+  ]
+}

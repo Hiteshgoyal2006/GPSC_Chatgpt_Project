@@ -1,0 +1,112 @@
+{
+  "webinars": [
+    {
+      "id": "decoding-ncf-session-5",
+      "title": "Decoding NCF for School Education, NCFSC Session-5, Part-C",
+      "date": "2023-10-18",
+      "description": "A professional development webinar for school leaders and educators focused on decoding the National Curriculum Framework.",
+      "speakers": "Ms. Rashmi Malik, Ms. Dipinder Kaur, Dr. Shalini Bajaj, Ms. Alka Singh",
+      "youtubeUrl": "",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+      "status": "published"
+    },
+    {
+      "id": "decoding-ncf-session-4",
+      "title": "Decoding NCF, Session-4, Type-C",
+      "date": "2023-10-11",
+      "description": "Session led by GPSC school principals to support implementation understanding for member schools.",
+      "speakers": "Ms. Sandeepa Rai, Ms. Charu Maini, Ms. Rashmi Malik, Ms. Alka Singh",
+      "youtubeUrl": "",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80",
+      "status": "published"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conference-2024-25",
+      "number": "23rd Annual Conference",
+      "academicYear": "2024-25",
+      "theme": "Gen Alpha to Beta - Empowering Changemakers",
+      "date": "2025-05-03",
+      "venue": "The Leela Ambience Hotel, Gurugram",
+      "description": "The 23rd Annual Conference of Gurgaon Progressive Schools Council and CBSE Sahodaya Schools Complexes, Gurgaon Chapter.",
+      "youtubeUrl": "https://www.youtube.com",
+      "detailsUrl": "",
+      "photosUrl": "https://drive.google.com",
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "conference-2023-24",
+      "number": "22nd Annual Conference",
+      "academicYear": "2023-24",
+      "theme": "Communication - The Human Connect",
+      "date": "2024-01-23",
+      "venue": "Orana Convention, Sector 64, Gurugram",
+      "description": "Co-creating a culture of collaboration, commitment and care.",
+      "youtubeUrl": "https://www.youtube.com",
+      "detailsUrl": "",
+      "photosUrl": "",
+      "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "conference-2022-23",
+      "number": "21st Annual Conference",
+      "academicYear": "2022-23",
+      "theme": "A Confluence of Schola - Tertiary - Industry",
+      "date": "2023-02-11",
+      "venue": "Grand Hyatt Gurugram",
+      "description": "A future-readiness conference connecting schools, tertiary education and industry.",
+      "youtubeUrl": "",
+      "detailsUrl": "https://drive.google.com",
+      "photosUrl": "https://photos.app.goo.gl",
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1000&q=80"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "meeting-2025-10-14",
+      "title": "General Body Meeting",
+      "date": "2025-10-14",
+      "venue": "Blue Bells School, Sector 4, Gurugram",
+      "minutesUrl": "https://docs.google.com",
+      "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80",
+      "year": "2025"
+    },
+    {
+      "id": "meeting-2025-09-25",
+      "title": "General Body Meeting",
+      "date": "2025-09-25",
+      "venue": "Shiv Nadar School, Gurugram",
+      "minutesUrl": "https://drive.google.com",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80",
+      "year": "2025"
+    },
+    {
+      "id": "meeting-2025-08-21",
+      "title": "General Body Meeting",
+      "date": "2025-08-21",
+      "venue": "DAV Public School, Sector-49",
+      "minutesUrl": "https://drive.google.com",
+      "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80",
+      "year": "2025"
+    }
+  ],
+  "publications": [
+    {
+      "id": "publication-2023-24",
+      "title": "GPSC Publication",
+      "year": "2023-2024",
+      "fileUrl": "https://drive.google.com",
+      "coverImage": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=700&q=80",
+      "description": "Annual publication and record of GPSC activities."
+    },
+    {
+      "id": "publication-2022-23",
+      "title": "GPSC Publication",
+      "year": "2022-2023",
+      "fileUrl": "https://drive.google.com",
+      "coverImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=700&q=80",
+      "description": "Annual publication and record of GPSC activities."
+    }
+  ]
+}

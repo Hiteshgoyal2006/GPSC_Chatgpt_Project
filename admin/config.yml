@@ -1,0 +1,161 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+publish_mode: editorial_workflow
+site_url: "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME"
+display_url: "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME"
+
+collections:
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - name: "site"
+        label: "Global Site Content"
+        file: "data/site.json"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Full Name", name: "fullName", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Value", name: "value", widget: "string" }
+          - label: "Activities"
+            name: "activities"
+            widget: "list"
+            field: { label: "Activity", name: "activity", widget: "string" }
+          - label: "Navigation"
+            name: "navigation"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+
+  - name: "people"
+    label: "Board Members"
+    files:
+      - name: "board_members"
+        label: "Board & Founder Members"
+        file: "data/board-members.json"
+        fields:
+          - label: "Members"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Designation", name: "designation", widget: "string", required: false }
+              - { label: "School", name: "school", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Email", name: "email", widget: "string", required: false }
+              - { label: "Phone", name: "phone", widget: "string", required: false }
+              - { label: "Category", name: "category", widget: "select", options: ["managing-committee", "founder-member"] }
+              - { label: "Order", name: "order", widget: "number" }
+
+  - name: "members"
+    label: "Member Schools"
+    files:
+      - name: "member_schools"
+        label: "Member Schools"
+        file: "data/members.json"
+        fields:
+          - label: "Schools"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "School Name", name: "name", widget: "string" }
+              - { label: "Sector", name: "sector", widget: "string" }
+              - { label: "Address", name: "address", widget: "text" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Principal", name: "principal", widget: "string" }
+              - { label: "Website", name: "website", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Tags", name: "tags", widget: "list", required: false }
+              - { label: "Active", name: "active", widget: "boolean", default: true }
+
+  - name: "events"
+    label: "Events"
+    files:
+      - name: "events"
+        label: "Events, Meetings & Publications"
+        file: "data/events.json"
+        fields:
+          - label: "Webinars"
+            name: "webinars"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Speakers", name: "speakers", widget: "string", required: false }
+              - { label: "YouTube URL", name: "youtubeUrl", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Status", name: "status", widget: "select", options: ["draft", "published"], default: "published" }
+          - label: "Conferences"
+            name: "conferences"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Number", name: "number", widget: "string" }
+              - { label: "Academic Year", name: "academicYear", widget: "string" }
+              - { label: "Theme", name: "theme", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "YouTube URL", name: "youtubeUrl", widget: "string", required: false }
+              - { label: "Details URL", name: "detailsUrl", widget: "string", required: false }
+              - { label: "Photos URL", name: "photosUrl", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image", required: false }
+          - label: "Meetings"
+            name: "meetings"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Minutes URL", name: "minutesUrl", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Year", name: "year", widget: "string" }
+          - label: "Publications"
+            name: "publications"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "File URL", name: "fileUrl", widget: "string" }
+              - { label: "Cover Image", name: "coverImage", widget: "image", required: false }
+              - { label: "Description", name: "description", widget: "text", required: false }
+
+  - name: "gallery"
+    label: "Photo Gallery"
+    files:
+      - name: "gallery"
+        label: "Gallery Albums"
+        file: "data/gallery.json"
+        fields:
+          - label: "Albums"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Cover Image", name: "coverImage", widget: "image", required: false }
+              - { label: "External URL", name: "externalUrl", widget: "string", required: false }
+              - { label: "Images", name: "images", widget: "list", required: false, field: { label: "Image", name: "image", widget: "image" } }

@@ -1,0 +1,102 @@
+{
+  "items": [
+  {
+    "id": "alka-singh",
+    "name": "Ms. Alka Singh",
+    "role": "Chairperson",
+    "designation": "Principal",
+    "school": "Blue Bells Model School",
+    "location": "Sector-4, Gurugram",
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=80",
+    "email": "principalbbms@bluebells.org",
+    "phone": "0124 4698888",
+    "category": "managing-committee",
+    "order": 1
+  },
+  {
+    "id": "sandeepa-rai",
+    "name": "Ms. Sandeepa Rai",
+    "role": "Vice Chairperson",
+    "designation": "Principal",
+    "school": "Rotary Public School",
+    "location": "Sector-22, Gurugram",
+    "image": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&w=700&q=80",
+    "email": "rotaryschool@rediffmail.com",
+    "phone": "0124-2369520",
+    "category": "managing-committee",
+    "order": 2
+  },
+  {
+    "id": "ritu-bedi",
+    "name": "Ms. Ritu Bedi",
+    "role": "Secretary",
+    "designation": "Principal",
+    "school": "Red Roses Public School",
+    "location": "Palam Vihar, Gurugram",
+    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=80",
+    "email": "principal.pv@rrps.in",
+    "phone": "9810586869",
+    "category": "managing-committee",
+    "order": 3
+  },
+  {
+    "id": "neelima-kamrah",
+    "name": "Ms. Neelima Kamrah",
+    "role": "Joint Secretary",
+    "designation": "Principal",
+    "school": "KIIT World School",
+    "location": "Sohna Road, Gurugram",
+    "image": "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=700&q=80",
+    "email": "info@kiitworldschool.org",
+    "phone": "9711818181",
+    "category": "managing-committee",
+    "order": 4
+  },
+  {
+    "id": "dipinder-kaur",
+    "name": "Ms. Dipinder Kaur",
+    "role": "Treasurer",
+    "designation": "Principal",
+    "school": "Lions Public School",
+    "location": "Sector-10A, Gurugram",
+    "image": "https://images.unsplash.com/photo-1590650153855-d9e808231d41?auto=format&fit=crop&w=700&q=80",
+    "email": "info@lionspublicschool.com",
+    "phone": "0124-2371526",
+    "category": "managing-committee",
+    "order": 5
+  },
+  {
+    "id": "pk-jain",
+    "name": "Mr. P. K. Jain",
+    "role": "Founder Member",
+    "designation": "Patron, Former Chairman",
+    "school": "Rotary Public School",
+    "location": "Sector-22, Gurugram",
+    "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80",
+    "category": "founder-member",
+    "order": 1
+  },
+  {
+    "id": "asha-sharma",
+    "name": "Ms. Asha Sharma",
+    "role": "Founder Member",
+    "designation": "President",
+    "school": "S. D. Adarsh Vidyalaya",
+    "location": "Sector-49, Gurugram",
+    "image": "https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?auto=format&fit=crop&w=700&q=80",
+    "category": "founder-member",
+    "order": 2
+  },
+  {
+    "id": "indu-khetarpal",
+    "name": "Dr. Indu Khetarpal",
+    "role": "Founder Member",
+    "designation": "Founder Principal",
+    "school": "Salwan Public School",
+    "location": "Sector-15(II), Gurugram",
+    "image": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=700&q=80",
+    "category": "founder-member",
+    "order": 3
+  }
+  ]
+}

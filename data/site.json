@@ -1,0 +1,27 @@
+{
+  "name": "Gurgaon Progressive Schools Council",
+  "fullName": "CBSE Sahodaya Schools Complexes, Gurgaon Chapter",
+  "tagline": "Rising Together for Excellence in Education",
+  "email": "sahodayagurgaon@gmail.com",
+  "description": "A collaborative platform for CBSE schools in Gurugram to share practices, discuss policy, and build stronger learning communities.",
+  "stats": [
+    { "label": "Member Schools", "value": "50+" },
+    { "label": "Annual Conferences", "value": "23" },
+    { "label": "Years of Collaboration", "value": "35+" }
+  ],
+  "activities": [
+    "Orientation programs, seminars and workshops for teachers, students and principals",
+    "Joint programs for examinations, sports, cultural activities and inter-school competitions",
+    "Discussion on implementation of circulars and guidelines issued by CBSE",
+    "Community development projects on road safety, consumer awareness, peace education and adolescent education"
+  ],
+  "navigation": [
+    { "label": "Home", "url": "index.html" },
+    { "label": "Board Members", "url": "board-members.html" },
+    { "label": "Members", "url": "members.html" },
+    { "label": "Events", "url": "events.html" },
+    { "label": "Join", "url": "join.html" },
+    { "label": "Photo Gallery", "url": "photo-gallery.html" },
+    { "label": "Contact", "url": "contact.html" }
+  ]
+}
